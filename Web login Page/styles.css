@@ -1,17 +1,16 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 body{
     background: linear-gradient(138.45deg, #000000 0%, #0B003E 100%) !important;
-   
+    font-family: 'Roboto', sans-serif;
 }
-h1{
+ h1{
     position: absolute;
     width: 332px;
     height: 58px;
     left: 72px;
     top: 216px;
     
-    font-family: Inter;
-    font-style: normal;
+   
     font-weight: 600;
     font-size: 48px;
     line-height: 58px;
@@ -27,26 +26,30 @@ height: 160px;
 left: 72px;
 top: 380px;
 
-font-family: Inter;
-font-style: normal;
+
 font-weight: 600;
-font-size: 24px;
+font-size: 22px;
 line-height: 40px;
+color: white;
 /* or 167% */
 }
-.right{
-    position: absolute;
-width: 350px;
-height: 60px;
-left: 748px;
-top: 125px;
 
-font-family: Roboto;
-font-style: normal;
-font-weight: normal;
-font-size: 36px;
-line-height: 42px;
+li {
+    list-style-type: none;
+    position: relative;
+    padding-left: 15px;
+  }
 
-color: #FFFFFF;
 
-}
+ i{
+     font-size: 1rem;
+ }
+ .loginBtn{
+background-color:#D33534;
+padding:1rem;
+font-size: 1.1rem;
+ }
+ .loginBtn i{
+     font-size: 1.1rem;
+     color:white;
+ }

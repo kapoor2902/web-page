@@ -3,29 +3,54 @@
     <head>
         <link rel="stylesheet" href="styles.css">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    </head>
+        <meta name="google-signin-scope" content="profile email">
+        <meta name="google-signin-client_id" content="MY_CLIENT_ID_ON_GOOGLE_DEV.apps.googleusercontent.com">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+      </head>
     <body>
         <div class="container-fluid">
             <img src="image/image 2Acm.png" alt="" style="position: absolute;width: 148px; height: 134px;left: 81px;top: 67px;">
             <h1>CODER STATS</h1>
-            
-            <div class="col-md-8">
+            <div class="row">
+            <div class="col-md-7" style="background: linear-gradient(138.45deg, #000000 0%, #0B003E 100%);">
                 <div class="left">
                   
                   
                   <ul>
                     <p>Includes student ranks of</p>
-                    <li>Hackerrank</li>
-                    <li>Leet Code</li>
-                    <li>Code Chef</li>
+                    <li><span class="me-3 d-inline-block"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Hackerrank</li>
+                    <li><span class="me-3 d-inline-block"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Leet Code</li>
+                    <li><span class="me-3 d-inline-block"><i class="fa fa-arrow-right" aria-hidden="true"></i></span>Code Chef</li>
+                    
                   </ul>
+                  <br><br><br>
+                  <p style="padding-top:33rem;padding-left:7rem;color:white;">Instagram @acmthapar</p>
+                  <p style="padding-left: 7rem;color: white;">Linkdin @Thapar ACM Student Chapter</p>
+                  
             </div>
             </div>
-            <div class="col-md-4">
-              <div class="right">
-                 <p>Hello!</p>
-          </div>
-          </div>
           
+            <div class="col-md-5" style="background: linear-gradient(180deg, #00032D 0%, #000000 53.36%, #00032D 100%);">
+              <div class="login" >
+                 <div>
+                   <h2 style=" padding-top:8rem;color: white;">Hello!</h2>
+                   <h2 style="color: white;">Join The Community</h2>
+                   <br><br><br>
+                   <form method="get" action="https://accounts.google.com/signin/v2/identifier?hl=en&continue=https%3A%2F%2Fmail.google.com%2Fmail&service=mail&ec=GAlAFw&flowName=GlifWebSignIn&flowEntry=AddSession">
+                   <button class="loginBtn loginBtn--google rounded-pill" style="text-align: center;" ><i class="fa fa-google-plus " aria-hidden="true"></i>
+                    Sign in with Google
+                  </button>
+                  </form>
+                  <br><br>
+                 
+                  <form method="get" action="https://www.facebook.com/">
+                  <button class="loginBtn loginBtn--facebook" style="text-align: center;">
+                      Sign in with Facebook
+                  </button>
+                  </form>
+                 </div>
+          </div>
+          </div>
+          </div>
     </body>
 </html>
